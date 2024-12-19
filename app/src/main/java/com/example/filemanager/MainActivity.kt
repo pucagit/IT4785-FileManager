@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
         val root = if (path != null) File(path) else Environment.getExternalStorageDirectory()
         val files = root.listFiles()?.toList() ?: emptyList()
 
+        binding.pathTextView.text = root.absolutePath
+
         // Set up RecyclerView with FileAdapter
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.adapter = FileAdapter(files) { file ->

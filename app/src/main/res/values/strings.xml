@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FileManager</string>
     <string name="file_folder_name">File/Folder Name</string>
+    <string name="current_path">Current Path</string>
 </resources>
