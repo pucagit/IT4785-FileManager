@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FileManager</string>
+    <string name="file_folder_name">File/Folder Name</string>
+</resources>
